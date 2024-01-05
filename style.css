@@ -1,0 +1,79 @@
+/* Etch-a-sketch grid/pixels */
+.container {
+    width: 500px;
+    height: 500px;
+    border: 5px black solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.pixel-blank, .pixel-fill{
+    box-sizing: inherit;
+    border: 1px gray solid;
+}
+
+.pixel-fill {
+    background-color: black;
+    border: 1px black solid;
+}
+/* --------------------------- */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(127, 255, 159);
+    /* justify-content: space-between; */
+}
+
+.banner {
+    font-family: 'Pixelify Sans', sans-serif;
+    display: flex;
+    padding: 2%;
+    margin-bottom: 2%;
+    background-color: black;
+    color: white;
+}
+
+.heading {
+    margin: 0;
+    font-size: 50px;
+}
+
+.name {
+    margin-left: 2%;
+    align-self: flex-end;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: space-around;
+}
+
+.clear {
+    background-color: inherit;
+    border: 4px solid black;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px 25px;
+}
+
+
+
+.footer {
+    /* position: relative;
+    justify-self: flex-end;
+    background-color: black; */
+}
